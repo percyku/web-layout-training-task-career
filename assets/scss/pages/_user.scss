@@ -1,0 +1,53 @@
+.bg-gray {
+  background-color: #f0f3f5;
+}
+
+.btn-outline-color {
+  border: 1px solid #d1d9e1;
+}
+
+.subtitle-section {
+  min-width: 300px;
+}
+
+.tab-btn {
+  display: flex;
+  align-items: center;
+  border-radius: 1rem;
+  background-color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding: 12px 20px;
+  color: #141a1f;
+  border: 1px solid #e0e5eb;
+  &:hover {
+    background-color: #e0e5eb;
+    border: 0px;
+  }
+
+  &:active {
+    background-color: #e0e5eb;
+    border: 0px;
+  }
+}
+
+.select-btn {
+  min-width: 100%;
+  padding: 16px 12px;
+}
+
+.select-btn-content {
+  min-width: 100%;
+}
+
+.record-btn-size {
+  width: 33%;
+  padding: 24px 0;
+}
+
+.must-btn {
+  border-radius: 2rem;
+  color: white;
+  background-color: #e51300;
+  padding: 4px 8px;
+}
