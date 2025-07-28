@@ -112,14 +112,21 @@
                           alt=""
                           class="border border-1 rounded-circle"
                         />
-                        <button
-                          type="button"
+
+                        <label
+                          for="fileUpload"
                           class="btn rounded-4 btn-outline-color align-bottom py-2"
                         >
                           <span class="material-icons-outlined align-bottom">
                             file_upload </span
-                          >更新頭貼
-                        </button>
+                          >更新頭貼</label
+                        >
+                        <input
+                          type="file"
+                          name="fileUpload"
+                          id="fileUpload"
+                          class="d-none"
+                        />
                       </div>
                       <!-- 姓名欄位 -->
                       <div class="form-floating mb-4">
@@ -614,7 +621,7 @@
                       <!-- 工作產業 -->
                       <div class="dropdown mb-4">
                         <button
-                          class="btn select-btn border btn-outline-color rounded-3 d-flex justify-content-between"
+                          class="btn w-100 border btn-outline-color rounded-3 d-flex justify-content-between py-3"
                           type="button"
                           id="dropdownMenuButton1"
                           data-bs-toggle="dropdown"
@@ -681,7 +688,7 @@
                       <!-- 工作年資 -->
                       <div class="dropdown mb-4">
                         <button
-                          class="btn select-btn border btn-outline-color rounded-3 d-flex justify-content-between"
+                          class="btn w-100 border btn-outline-color rounded-3 d-flex justify-content-between py-3"
                           type="button"
                           id="dropdownMenuButton1"
                           data-bs-toggle="dropdown"
@@ -1235,12 +1242,7 @@
                     <div class="flex-shrink-0 subtitle-section">
                       <h2 class="fs-4 mb-3">業技能區塊</h2>
                       <div class="d-flex">
-                        <p class="text-secondary">
-                          欄位皆為
-                          <span class="badge rounded-pill text-bg-danger ms-1"
-                            >必填</span
-                          >
-                        </p>
+                        <p class="text-secondary">欄位皆為選填</p>
                       </div>
                     </div>
 
@@ -1420,12 +1422,7 @@
                     <div class="flex-shrink-0 subtitle-section">
                       <h2 class="fs-4 mb-3">教育背景</h2>
                       <div class="d-flex">
-                        <p class="text-secondary">
-                          欄位皆為
-                          <span class="badge rounded-pill text-bg-danger ms-1"
-                            >必填</span
-                          >
-                        </p>
+                        <p class="text-secondary">欄位皆為選填</p>
                       </div>
                     </div>
 
