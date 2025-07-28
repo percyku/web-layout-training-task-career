@@ -23,5 +23,15 @@ dist-ssr
 *.sln
 *.sw?
 
-# tmp HTML 
+# trial run HTML 
 test.html
+user-test.html
+
+
+# trial run SCSS
+all-test.scss
+_user-test.scss 
+
+
+# trial run JS
+main-test.js
