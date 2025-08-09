@@ -33,6 +33,12 @@
   width: 100%;
 }
 
+@media (max-width: 992px) {
+  .subtitle-section {
+    width: 100%;
+  }
+}
+
 .tab-btn-bg {
   .nav-link {
     background-color: $white;
