@@ -1,0 +1,102 @@
+<!--login Modal -->
+<div
+  class="modal modal-xl fade"
+  id="login"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="row">
+        <div class="d-none d-xl-block col-xl-7">
+          <img
+            src="../assets/images/about/login.png"
+            alt=""
+            class="img-l-raduis"
+          />
+        </div>
+
+        <div class="col-12 col-xl-5 p-5 p-lg-6 w-xl-100 h-100 mb-xl-0 mb-7">
+          <div class="position-relative">
+            <button
+              type="button"
+              class="btn-close position-absolute top-0 start-100 translate-middle"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <h2 class="fs-4 text-center mb-5 mb-xl-6">登入</h2>
+            <div class="pb-5 border-bottom">
+              <button
+                type="button"
+                class="btn text-center border rounded-3 w-100 py-2 mb-4"
+              >
+                <div class="d-flex justify-content-center align-items-center">
+                  <img
+                    src="../assets/images/icons/google.png"
+                    alt="google-icon"
+                    class="icon-size"
+                  />
+                  <p class="fs-6">Google</p>
+                </div>
+              </button>
+
+              <button
+                type="button"
+                class="btn text-center border rounded-3 w-100"
+              >
+                <div class="d-flex justify-content-center align-items-center">
+                  <img
+                    src="../assets/images/icons/discord.png"
+                    alt="discord-icon"
+                    class="icon-size"
+                  />
+                  <p class="fs-6">discord</p>
+                </div>
+              </button>
+            </div>
+
+            <div class="py-5">
+              <div class="form-floating mb-4">
+                <input
+                  type="account"
+                  class="form-control rounded-2"
+                  id="floatingAccount"
+                  placeholder="acount"
+                />
+                <label for="floatingAccount">帳號</label>
+              </div>
+
+              <div class="form-floating mb-4">
+                <input
+                  type="password"
+                  class="form-control rounded-2"
+                  id="floatingPassword"
+                  placeholder="password"
+                />
+                <label for="floatingPassword">密碼</label>
+              </div>
+
+              <p class="text-natural-50 text-end mb-4">
+                <a href="link-primary">忘記密碼</a>
+              </p>
+              <button
+                type="button"
+                class="btn btn-dark rounded-4 btn-outline-color align-bottom py-2 text-center w-100"
+              >
+                送出
+                <span class="material-icons-outlined align-bottom">
+                  keyboard_arrow_right
+                </span>
+              </button>
+            </div>
+            <p class="text-natural-50 text-center">
+              不是會員？
+              <a class="link-primary" href="#">快速註冊</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

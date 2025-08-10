@@ -32,14 +32,26 @@
             </ul>
           </div>
 
-          <a href="user.html" class="ms-auto"
-            ><img
-              src="../assets/images/avatar.png"
-              alt="avatar person icon"
-              class="person-icon border border-1 rounded-circle me-2"
-            />
-            Mokumaru</a
-          >
+          <div class="ms-auto">
+            <button
+              type="button"
+              class="btn rounded-4 btn-outline-color align-bottom py-2 me-3 text-center"
+            >
+              <a
+                href="#"
+                class=""
+                data-bs-toggle="modal"
+                data-bs-target="#login"
+                >登入</a
+              >
+              <span>/</span>
+              <a href="#" data-bs-toggle="modal" data-bs-target="#register"
+                >註冊</a
+              >
+            </button>
+            <%- include('./layout/login'); -%> <%-
+            include('./layout/register');-%>
+          </div>
 
           <div class="dropdown d-md-none">
             <button
