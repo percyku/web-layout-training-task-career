@@ -9,39 +9,45 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/web-layout-training-task-career/assets/bootstrap.min-DjJrqqIs.js"></script>
-    <script type="module" crossorigin src="/web-layout-training-task-career/assets/main-DJOa5s6W.js"></script>
-    <link rel="stylesheet" crossorigin href="/web-layout-training-task-career/assets/user-test-BaDPIY5f.css">
+    <script type="module" crossorigin src="/web-layout-training-task-career/assets/main-B9Kiv998.js"></script>
+    <link rel="stylesheet" crossorigin href="/web-layout-training-task-career/assets/main-Cnxzrh7O.css">
   </head>
   <body>
     <div class="border-bottom">
   <div class="container">
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid py-2">
-        <div
-          class="collapse navbar-collapse justify-content-center"
-          id="navbarSupportedContent"
-        >
-          <a class="navbar-brand" href="#">
+    <nav class="navbar navbar-expand-md">
+      <div class="container-fluid py-3">
+        <div class="d-flex align-items-center w-100">
+          <a class="navbar-brand" href="index.html">
             <img src="/web-layout-training-task-career/assets/logo-CRTeTChE.svg" alt="logo" />
           </a>
-          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-            <li class="nav-item me-3">
-              <a
-                class="nav-link text-dark px-3 py-2"
-                aria-current="page"
-                href="#"
-                >服務方案</a
-              >
-            </li>
-            <li class="nav-item me-3">
-              <a class="nav-link text-dark px-3 py-2" href="#">關於職旅</a>
-            </li>
-            <li class="nav-item me-2">
-              <a class="nav-link text-dark px-3 py-2" href="#">聯絡我們</a>
-            </li>
-          </ul>
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item me-3">
+                <a
+                  class="nav-link text-dark px-3 py-2"
+                  aria-current="page"
+                  href="service.html"
+                  >服務方案</a
+                >
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link text-dark px-3 py-2" href="about.html"
+                  >關於職旅</a
+                >
+              </li>
+              <li class="nav-item me-2">
+                <a class="nav-link text-dark px-3 py-2" href="contact.html"
+                  >聯絡我們</a
+                >
+              </li>
+            </ul>
+          </div>
 
-          <a href="user.html"
+          <a href="user.html" class="ms-auto"
             ><img
               src="/web-layout-training-task-career/assets/avatar-QGHQ479s.png"
               alt="avatar person icon"
@@ -49,6 +55,26 @@
             />
             Mokumaru</a
           >
+
+          <div class="dropdown d-md-none">
+            <button
+              class="btn"
+              type="button"
+              id="dropdownMenuNav"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <span class="material-icons-outlined"> menu </span>
+            </button>
+            <ul
+              class="dropdown-menu dropdown-menu-end mt-2 rounded-2 text-center"
+              aria-labelledby="dropdownMenuNav"
+            >
+              <li><a class="dropdown-item" href="service.html">服務方案</a></li>
+              <li><a class="dropdown-item" href="about.html">關於職旅</a></li>
+              <li><a class="dropdown-item" href="ontact.html">聯絡我們</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
@@ -1459,8 +1485,10 @@
     </div>
 
     <footer class="footer-section border-top py-5">
-  <div class="d-flex justify-content-between align-item-center">
-    <ul class="d-flex">
+  <div
+    class="d-flex flex-column flex-lg-row justify-content-between align-items-center"
+  >
+    <ul class="d-flex flex-wrap justify-content-center fs-6">
       <li><a href="#">服務方案</a></li>
       <li><a href="#">關於職旅</a></li>
       <li><a href="#">聯絡我們</a></li>
@@ -1468,7 +1496,9 @@
       <li><a href="#">用戶條款</a></li>
     </ul>
 
-    <p>Copyright © 2025 職旅 workway. All rights reserved.</p>
+    <p class="text-center text-natural-50">
+      Copyright © 2025 職旅 workway. All rights reserved.
+    </p>
   </div>
 </footer>
   </body>
