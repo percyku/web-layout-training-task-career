@@ -17,3 +17,17 @@
 .card {
   width: 320px;
 }
+
+.pb-700 {
+  padding-bottom: 700px;
+}
+
+.mt-flexible {
+  margin-top: 0px;
+}
+
+@media (min-width: 767px) {
+  .mt-flexible {
+    margin-top: 500px;
+  }
+}
