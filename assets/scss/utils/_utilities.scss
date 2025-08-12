@@ -23,3 +23,25 @@ $utilities: map-merge(
   width: 20px;
   height: 20px;
 }
+
+.mb-300 {
+  margin-bottom: 300px;
+}
+
+.mt-300 {
+  margin-top: 300px;
+}
+
+.pb-700 {
+  padding-bottom: 700px;
+}
+
+.mt-flexible {
+  margin-top: 0px;
+}
+
+@media (min-width: 767px) {
+  .mt-flexible {
+    margin-top: 500px;
+  }
+}
