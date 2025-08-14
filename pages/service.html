@@ -9,15 +9,21 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
   </head>
   <body>
     <%- include('./layout/header_init'); -%>
     <section class="header-banner position-relative">
-      <div class="container">
+      <div class="container" data-aos="fade-up">
         <h2 class="fs-2 fs-md-1 mb-5 mb-md-6">服務方案</h2>
         <div class="row justify-content-center">
           <div class="col-md-8">
-            <p class="fs-6 fs-md-5 text-natural-50">
+            <p
+              class="fs-6 fs-md-5 text-natural-50 animate__animated animate__bounce"
+            >
               我們最全面的服務方案，為您提供從評估、規劃到實踐的完整支持。不再擔心轉型過程中的各種挑戰，我們的專家團隊將全程陪伴，確保您順利實現職業自由。
             </p>
           </div>
@@ -28,12 +34,15 @@
         src="../assets/images/service/banner-person.svg"
         alt="form-top"
         class="position-absolute top-85 start-85 translate-middle d-none d-md-block"
+        data-aos="fade-right"
+        data-aos-delay="100"
       />
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     </section>
 
     <!-- 職涯轉型全程計畫 -->
     <main class="bg-white py-6 py-md-7">
-      <div class="container">
+      <div class="container" data-aos="fade-down">
         <div class="text-center mb-5 mb-md-6">
           <img
             src="../assets/images/service/mountain.png"
@@ -46,7 +55,7 @@
         </div>
         <div class="card-service-custom">
           <ul>
-            <li>
+            <li data-aos="fade-left">
               <input
                 type="radio"
                 id="cardOption1"
@@ -144,7 +153,7 @@
                 />
               </label>
             </li>
-            <li>
+            <li data-aos="fade-down-right">
               <input
                 type="radio"
                 id="cardOption2"
@@ -240,7 +249,7 @@
                 />
               </label>
             </li>
-            <li>
+            <li data-aos="fade-up-left">
               <input
                 type="radio"
                 id="cardOption3"
@@ -343,7 +352,11 @@
     <!-- 基礎諮詢服務 -->
     <main class="bg-natural-95 py-6 py-md-7 position-relative">
       <div class="container mb-300">
-        <div class="text-center mb-5 mb-md-6">
+        <div
+          class="text-center mb-5 mb-md-6"
+          data-aos="fade-up"
+          data-aos-delay="250"
+        >
           <img
             src="../assets/images/service/mountain.png"
             alt=""
@@ -357,7 +370,7 @@
         </div>
 
         <div class="card-service-custom">
-          <ul class="row">
+          <ul class="row" data-aos="fade-down-right" data-aos-delay="250">
             <li class="col-md-4 mb-4">
               <input
                 type="radio"
@@ -472,7 +485,11 @@
       </div>
 
       <div class="container position-absolute top-95 start-50 translate-middle">
-        <div class="text-center mb-5 mb-md-6">
+        <div
+          class="text-center mb-5 mb-md-6"
+          data-aos="fade-down"
+          data-aos-delay="100"
+        >
           <img
             src="../assets/images/service/support.png"
             alt="support"
@@ -486,6 +503,8 @@
             <div class="tab-content shadow rounded-3 bg-white">
               <div
                 class="tab-pane fade show active p-5 p-md-6 position-relative"
+                data-aos="flip-left"
+                data-aos-delay="200"
               >
                 <div class="mb-5">
                   <h3 class="fs-5 fs-md-4 text-center mb-2">職旅會員計畫</h3>
@@ -527,7 +546,11 @@
     </main>
 
     <section class="bg-white">
-      <div class="container py-6 mt-300">
+      <div
+        class="container py-6 mt-300"
+        data-aos="fade-down"
+        data-aos-delay="300"
+      >
         <div class="tab-content shadow rounded-3 bg-primary">
           <div class="tab-pane fade show active py-4 px-5">
             <div class="pb-5 border-bottom mb-4">
@@ -573,7 +596,7 @@
       </div>
     </section>
     <%- include('./layout/footer'); -%>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="module" src="../main.js"></script>
   </body>
 </html>
